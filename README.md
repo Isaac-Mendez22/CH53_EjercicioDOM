@@ -17,4 +17,4 @@ git commit -m "mensaje"
 git push origin main
 ```
 vista previa del index.html
-![Index](url)
+![Index](https://raw.githubusercontent.com/Isaac-Mendez22/CH53_EjercicioDOM/refs/heads/main/imagenes/imagen%20previa%20proyecto.png)
