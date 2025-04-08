@@ -48,5 +48,16 @@ btnMostrar.addEventListener("click", function(event){
 btnMostrar.addEventListener("click", function(event){
     event.preventDefault(); //no hagas lo que haces por defecto
     console.log("botoón btnModificar presionado");
+
+    let element = document.createElement("li");
+    element.innerText="Another item"; //(li) crea otro elemento
+
+    let element2 = element.cloneNode(true) //crea clona el elemento element com uno nuevo
+    //listas.item(0).before(element);
+    //listas.item(0).prepend(element2); //coloca al elemento clonado en la poscicion seleccionada en este caso "prepend"
+
+    listas.item(0).append(element);
+    listas.item(0).after(element2);
+
 }); //escucha los eventos que ocurren con ".addEventListener"
 
